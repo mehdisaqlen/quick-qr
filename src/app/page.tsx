@@ -1,5 +1,6 @@
 "use client";
 import styles from "./page.module.css";
+import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
@@ -71,7 +72,10 @@ export default function Home() {
       <br />
       <br />
       <footer className={styles.footer}>
-        <p>Created by Saqlen Mehdi</p>
+        <p>
+          QRQuick is created by{" "}
+          <Link href="https://github.com/mehdisaqlen">Saqlen Mehdi</Link>
+        </p>
       </footer>
     </main>
   );

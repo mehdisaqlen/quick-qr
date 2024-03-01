@@ -4,3 +4,8 @@
   box-sizing: border-box;
   font-family: "Inter";
 }
+
+a {
+  color: rgb(32, 101, 185);
+  text-decoration: none;
+}
